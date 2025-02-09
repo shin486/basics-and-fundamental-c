@@ -1,14 +1,15 @@
 #include <iostream>
+
 using namespace std;
 int main() {
 const int SIZE = 10;
 int arr1[SIZE], arr2[SIZE], merged[SIZE * 2];
 int totalSize = SIZE * 2;
-cout << "Enter 10 elements for the first array:\n";
+cout << "Enter 10 Elements for the first array:\n";
 for (int i = 0; i < SIZE; i++) {
 cin >> arr1[i];
 }
-cout << "Enter 10 elements for the second array:\n";
+cout << "Enter 10 Elements for the second array:\n";
 for (int i = 0; i < SIZE; i++) {
 cin >> arr2[i];
 }
